@@ -1,30 +1,3 @@
-Failed to find any textures at Things/Building/Misc/NeuralSupercharger/NeuralSupercharger while constructing Multi(initPath=Things/Building/Misc/NeuralSupercharger/NeuralSupercharger, color=RGBA(1.000, 1.000, 1.000, 1.000), colorTwo=RGBA(1.000, 1.000, 1.000, 1.000))
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Error (string)
-Verse.Graphic_Multi:Init (Verse.GraphicRequest)
-Verse.GraphicDatabase:GetInner<Verse.Graphic_Multi> (Verse.GraphicRequest)
-Verse.GraphicDatabase:Get (System.Type,string,UnityEngine.Shader,UnityEngine.Vector2,UnityEngine.Color,UnityEngine.Color,Verse.GraphicData,System.Collections.Generic.List`1<Verse.ShaderParameter>,string)
-Verse.GraphicData:Init ()
-Verse.GraphicData:get_Graphic ()
-Verse.ThingDef:<PostLoad>b__311_0 ()
-Verse.LongEventHandler:ExecuteToExecuteWhenFinished ()
-Verse.LongEventHandler:UpdateCurrentAsynchronousEvent ()
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) Verse.Root:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-Could not execute post-long-event action. Exception: System.NullReferenceException: Object reference not set to an instance of an object
-  at Verse.Graphic_Multi.TryInsertIntoAtlas (Verse.TextureAtlasGroup groupKey) [0x00011] in <360933dd75ad47e8a6d2a631ae77b5d8>:0 
-  at Verse.ThingDef.<PostLoad>b__311_0 () [0x00043] in <360933dd75ad47e8a6d2a631ae77b5d8>:0 
-  at Verse.LongEventHandler.ExecuteToExecuteWhenFinished () [0x0007c] in <360933dd75ad47e8a6d2a631ae77b5d8>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Error (string)
-Verse.LongEventHandler:ExecuteToExecuteWhenFinished ()
-Verse.LongEventHandler:UpdateCurrentAsynchronousEvent ()
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) Verse.Root:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
 Could not execute post-long-event action. Exception: System.NullReferenceException: Object reference not set to an instance of an object
   at Verse.BuildableDef.ResolveIcon () [0x00063] in <360933dd75ad47e8a6d2a631ae77b5d8>:0 
   at Verse.ThingDef.ResolveIcon () [0x00000] in <360933dd75ad47e8a6d2a631ae77b5d8>:0 
@@ -2869,6 +2842,33 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) Verse.Root:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
+Failed to find any textures at Things/Building/BuildingStyles/Morbid/Altars/AltarMorbid1x3 while constructing Multi(initPath=Things/Building/BuildingStyles/Morbid/Altars/AltarMorbid1x3, color=RGBA(1.000, 1.000, 1.000, 1.000), colorTwo=RGBA(1.000, 1.000, 1.000, 1.000))
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.Graphic_Multi:Init (Verse.GraphicRequest)
+Verse.GraphicDatabase:GetInner<Verse.Graphic_Multi> (Verse.GraphicRequest)
+Verse.GraphicDatabase:Get (System.Type,string,UnityEngine.Shader,UnityEngine.Vector2,UnityEngine.Color,UnityEngine.Color,Verse.GraphicData,System.Collections.Generic.List`1<Verse.ShaderParameter>,string)
+Verse.GraphicData:Init ()
+Verse.GraphicData:get_Graphic ()
+Verse.ThingStyleDef:<PostLoad>b__15_0 ()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished ()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) Verse.Root:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+Could not execute post-long-event action. Exception: System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.ThingStyleDef.ResolveUIIcon () [0x00040] in <360933dd75ad47e8a6d2a631ae77b5d8>:0 
+  at Verse.ThingStyleDef.<PostLoad>b__15_0 () [0x00042] in <360933dd75ad47e8a6d2a631ae77b5d8>:0 
+  at Verse.LongEventHandler.ExecuteToExecuteWhenFinished () [0x0007c] in <360933dd75ad47e8a6d2a631ae77b5d8>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished ()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) Verse.Root:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
 Reached max messages limit. Stopping logging to avoid spam.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Warning (string)
@@ -2890,7 +2890,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) Verse.Root:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-Failed to find any textures at Things/Building/BuildingStyles/Morbid/Altars/AltarMorbid1x3 while constructing Multi(initPath=Things/Building/BuildingStyles/Morbid/Altars/AltarMorbid1x3, color=RGBA(1.000, 1.000, 1.000, 1.000), colorTwo=RGBA(1.000, 1.000, 1.000, 1.000))
+Failed to find any textures at Things/Building/BuildingStyles/Morbid/Altars/AltarMorbid2x3 while constructing Multi(initPath=Things/Building/BuildingStyles/Morbid/Altars/AltarMorbid2x3, color=RGBA(1.000, 1.000, 1.000, 1.000), colorTwo=RGBA(1.000, 1.000, 1.000, 1.000))
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Error (string)
 Verse.Graphic_Multi:Init (Verse.GraphicRequest)
